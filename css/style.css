@@ -1,0 +1,34 @@
+
+#info{
+  cursor: pointer;
+  overflow-y: auto;
+  max-height: 250px;
+}
+.link-class:hover{
+  background-color: #f1f1f1;
+}
+.navbar{
+  border-top: solid 5px #28a745;
+}
+.container{
+  /*background-color: rgba(104, 250, 144, 0.48);*/
+
+}
+.img-peru{
+  width: 65%;
+}
+.titulo-principal{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: #28a745;
+  font-size: 50px;
+}
+
+.text-color{
+  font-family: 'Lobster', cursive;
+  color: #28a745;
+}
+
+.container{
+  font-family: 'Lobster', cursive;
+}

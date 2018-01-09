@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- framework bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!-- stilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark"> </nav>
+  <div class="container-fluid">
+    <h1 class="titulo-principal">Clima Perú</h1>
+    <form id="formnulario">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="img/peru.jpg" class="img-peru" alt="Clima Perú">
+        </div>
+        <div class="col-sm-6">
+          <label for="departamento">Departamento:</label>
+          <input type="text" class="form-control" id="departamento" name="departamento" placeholder="Busca tu Departamento">
+          <ul class="list-group" id="info"> </ul><br>
+
+          <label for="provincia" id="nameProv">Provincia:</label>
+          <select class="form-control" id="provincia" name="provincia">
+            <option value="">Seleccione Provincia</option>
+          </select><br>
+
+          <label for="distrito" id="nameDist">Distrito:</label>
+          <select class="form-control" id="distrito"  name="distrito">
+            <option value="">Seleccione Distrito</option>
+          </select><br>
+
+          <button type="button" class="btn btn-success" id="btn-clima">Ver el Clima</button>
+          </form>
+        </div>
+        <div class="col-sm-3">
+          <div id="infoTitulo" class="text-color"> </div>
+          <div id="info1"> </div>
+          <div id="info2"> </div>
+        </div>
+      </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div id="info3" class="titulo-secundario"> </div>
+        <div id="info4"> </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/functions.js" charset="utf-8"></script>
+</body>
+</html>
